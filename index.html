@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kivzo — News/Magazine Bootstrap Layout</title>
+  <!-- Favicon -->
+   <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+  <!-- Internal-CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  <!-- External-CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <!-- External-Javascript(Bootstrap) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <!-- Google-Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manufacturing+Consent&family=Mea+Culpa&family=Poppins&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- Font-Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md bg-white sticky-top shadow py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#business">Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#health">Health</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#world">World</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tech">Tech</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#idea">Idea</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#podcast">Podcast</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero & Sidebar -->
+  <section class="py-5" id="business">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-8">
+          <article class="hero-card rounded-2xl shadow-soft">
+            <!-- Replace with your image -->
+            <img src="./images/hero.jpg" class="img-fluid mx-auto d-block" alt="Hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+              <span class="badge bg-info-subtle text-dark cat-badge mb-2">Business</span>
+              <h2 class="fw-bold">Revolutionizing manufacturing: emerging trends shaping the industry</h2>
+              <div class="d-flex gap-3 small mt-2">
+                <span><i class="fa-regular fa-clock me-1"></i>Jan 25, 2025</span>
+                <span><i class="fa-regular fa-user me-1"></i>By Admin</span>
+              </div>
+            </div>
+          </article>
+          <!-- Mini category tiles under hero -->
+          <div class="row g-3 mt-3">
+            <!-- Repeat 4 items -->
+            <div class="col-6 col-md-3">
+              <a href="#" class="text-decoration-none">
+                <div class="post-card card">
+                  <img class="card-img-top" src="./images/hf1.jpg" alt=" hero feature"
+                    class="img-fluid mx-auto d-block">
+                  <div class="card-body">
+                    <span class="badge bg-secondary-subtle text-dark cat-badge">Business</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="#" class="text-decoration-none">
+                <div class="post-card card">
+                  <img class="card-img-top" src="./images/hf2.jpg" alt=" hero feature"
+                    class="img-fluid mx-auto d-block">
+                  <div class="card-body">
+                    <span class="badge bg-secondary-subtle text-dark cat-badge">Health</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="#" class="text-decoration-none">
+                <div class="post-card card">
+                  <img class="card-img-top" src="./images/hf3.jpg" alt=" hero feature"
+                    class="img-fluid mx-auto d-block">
+                  <div class="card-body">
+                    <span class="badge bg-secondary-subtle text-dark cat-badge">World News</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="#" class="text-decoration-none">
+                <div class="post-card card">
+                  <img class="card-img-top" src="./images/hf5.jpg" alt=" hero feature"
+                    class="img-fluid mx-auto d-block">
+                  <div class="card-body">
+                    <span class="badge bg-secondary-subtle text-dark cat-badge">Culture</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar Trending -->
+        <aside class="col-lg-4">
+          <div class="d-flex align-items-center justify-content-between mb-2">
+            <h5 class="section-title mb-0">Trending</h5>
+            <a class="small" href="#">View all →</a>
+          </div>
+          <div class="vstack gap-3">
+            <!-- mini post -->
+            <a class="mini-post" href="#">
+              <div class="d-flex justify-content-center align-items-center gap-2">
+                <div class="">
+                  <span class="badge bg-danger text-white cat-badge p-3"><i class="fa-solid fa-briefcase"></i>
+                    Business</span>
+                </div>
+                <div class="">
+                  <h6 class="mb-1 mt-1 sidebar-title fw-bold">Adapting business strategies to meet changing demands</h6>
+                  <p class="sidebar-pera">- Jan 25, 2025</p>
+                </div>
+              </div>
+            </a>
+            <hr>
+            <a class="mini-post" href="#">
+              <div class="d-flex justify-content-center align-items-center gap-2">
+                <div class="">
+                  <span class="badge bg-dark text-white cat-badge p-3"><i class="fa-solid fa-briefcase"></i>
+                    Technology</span>
+                </div>
+                <div class="">
+                  <h6 class="mb-1 mt-1 sidebar-title fw-bold">Smart home revolution: how IoT is transforming living
+                    spaces</h6>
+                  <p class="sidebar-pera">- Jan 25, 2025</p>
+                </div>
+              </div>
+            </a>
+
+            <a class="mini-post" href="#">
+              <div class="d-flex justify-content-center align-items-center gap-2">
+                <div class="">
+                  <span class="badge bg-primary text-white cat-badge p-3"><i class="fa-solid fa-briefcase"></i>
+                    Culture</span>
+                </div>
+                <div class="">
+                  <h6 class="mb-1 mt-1 sidebar-title fw-bold">The power of art: connecting and expressing culture</h6>
+                  <p class="sidebar-pera">- Jan 25, 2025</p>
+                </div>
+              </div>
+            </a>
+
+            <a class="mini-post" href="#">
+              <div class="d-flex justify-content-center align-items-center gap-2">
+                <div class="">
+                  <span class="badge bg-success text-white cat-badge p-3"><i class="fa-solid fa-briefcase"></i>
+                    Science</span>
+                </div>
+                <div class="">
+                  <h6 class="mb-1 mt-1 sidebar-title fw-bold">How AI is changing the field</h6>
+                  <p class="sidebar-pera">- Jan 25, 2025</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Editor's Pick -->
+  <div id="health" class="container-fluid editor-container py-5 my-3">
+    <div class="container">
+      <div class="row justify-content-between align-items-center my-5">
+        <div class="col-lg-6 col-md-5 col-12">
+          <div class="editor-content bg-white py-5 px-4 d-block rounded">
+            <div class="editor-title">
+              <h4 class="fw-bold h6">Stories that matter</h4>
+              <h2 class="h5 fw-bold text-uppercase">Editor's Pick</h2>
+            </div>
+            <div class="editor-description pt-4">
+              <div class="">
+                <h3 class="fw-bold edit-feature-title text-uppercase">Culture</h3>
+                <h5 class="fw-bold edit-feature-pera">The power of art in connecting and expressing culture</h5>
+                <hr>
+              </div>
+              <div class="">
+                <h3 class="fw-bold edit-feature-title text-uppercase">Health News</h3>
+                <h5 class="fw-bold edit-feature-pera">How artificial intelligience and matchine learning are changine the field</h5>
+                <hr>
+              </div>
+              <div class="">
+                <h3 class="fw-bold edit-feature-title text-uppercase">Sports</h3>
+                <h5 class="fw-bold edit-feature-pera">The influence of youth sports program of developing future champion</h5>
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-7 col-12">
+          <img src="./images/editor-img1.jpg" class="img-fluid mx-auto d-block rounded" alt="editor image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Latest News strip -->
+  <section id="world" class="py-4">
+    <div class="container">
+      <div class="latest-strip p-4">
+        <div class="d-flex align-items-center justify-content-between mb-3">
+          <h5 class="mb-0">Latest News</h5>
+          <a class="small text-dark" href="#">View all →</a>
+        </div>
+        <div class="row g-3">
+          <div class="col-6 col-md-3">
+            <a class="latest-card d-block text-decoration-none" href="#">
+              <img class="w-100" src="./images/ln1.jpg" class="img-fluid" alt="">
+              <div class="p-3">
+                <span class="badge bg-warning-subtle text-dark cat-badge">Business</span>
+                <h6 class="mt-2 mb-1">Adapting business strategies to meet changing demands</h6>
+                <small class="text-muted">Jan 25, 2025</small>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-md-3">
+            <a class="latest-card d-block text-decoration-none" href="#">
+              <img class="w-100" src="./images/ln2.jpg" class="img-fluid" alt="">
+              <div class="p-3">
+                <span class="badge bg-success-subtle text-dark cat-badge">Technology</span>
+                <h6 class="mt-2 mb-1">Smart homes & the future of living spaces</h6>
+                <small class="text-muted">Jan 25, 2025</small>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-md-3">
+            <a class="latest-card d-block text-decoration-none" href="#">
+              <img class="w-100" src="./images/ln3.jpg" class="img-fluid" alt="">
+              <div class="p-3">
+                <span class="badge bg-info-subtle text-dark cat-badge">Culture</span>
+                <h6 class="mt-2 mb-1">The power of art in connecting culture</h6>
+                <small class="text-muted">Jan 25, 2025</small>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-md-3">
+            <a class="latest-card d-block text-decoration-none" href="#">
+              <img class="w-100" src="./images/ln4.jpg" class="img-fluid" alt="">
+              <div class="p-3">
+                <span class="badge bg-primary-subtle text-dark cat-badge">Science</span>
+                <h6 class="mt-2 mb-1">AI & ML are changing the field</h6>
+                <small class="text-muted">Jan 25, 2025</small>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technology grid -->
+  <section id="tech" class="py-5">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <h3 class="section-title mb-0">Technology</h3>
+        <a class="small" href="#">View all →</a>
+      </div>
+      <div class="row g-4">
+        <!-- 4 posts -->
+        <div class="col-md-6 col-lg-3">
+          <article class="post-card card h-100">
+            <img class="card-img-top" src="./images/technology1.jpg" class="img-fluid" alt="technology">
+            <div class="card-body">
+              <span class="badge bg-success-subtle text-dark cat-badge">Technology</span>
+              <h6 class="mt-2">Smart homes: transforming living spaces</h6>
+              <p class="meta mb-0">Jan 25, 2025</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <article class="post-card card h-100">
+            <img class="card-img-top" src="./images/technology2.jpg" class="img-fluid" alt="technology">
+            <div class="card-body">
+              <span class="badge bg-success-subtle text-dark cat-badge">Technology</span>
+              <h6 class="mt-2">The future of 5G: connecting a world at lightning speed</h6>
+              <p class="meta mb-0">Jan 25, 2025</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <article class="post-card card h-100">
+            <img class="card-img-top" src="./images/technology3.jpg" class="img-fluid" alt="technology">
+            <div class="card-body">
+              <span class="badge bg-success-subtle text-dark cat-badge">Technology</span>
+              <h6 class="mt-2">Cybersecurity & the growing threat of digital breaches</h6>
+              <p class="meta mb-0">Jan 25, 2025</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <article class="post-card card h-100">
+            <img class="card-img-top" src="./images/technology4.jpg" class="img-fluid" alt="technology">
+            <div class="card-body">
+              <span class="badge bg-success-subtle text-dark cat-badge">Technology</span>
+              <h6 class="mt-2">Transforming entertainment, education & beyond</h6>
+              <p class="meta mb-0">Jan 25, 2025</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ad CTA banner -->
+  <section id="idea" class="pb-5 cta-container">
+    <div class="container">
+      <div class="ad-cta position-relative overflow-hidden">
+        <div class="row g-0 align-items-stretch">
+          <div class="col-md-8">
+            <img class="w-100 h-100" src="./images/cta.jpg" class="img-fluid" alt="Ad">
+          </div>
+          <div class="col-md-4 d-flex flex-column justify-content-center p-4 p-md-5">
+            <h5 class="fw-bold">Turning ideas into impactful ad campaigns</h5>
+            <p class="text-white">Partner with us to take your brand to the next level through modern, effective
+              advertising opportunities designed to connect your business with the right audience.</p>
+            <div>
+              <a href="#" class="btn btn-light btn-sm rounded-pill me-2">Advertise with us</a>
+              <a href="#" class="btn btn-outline-light btn-sm rounded-pill">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Editorial Team -->
+  <section id="team" class="py-5 border-top">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <h3 class="section-title mb-0">Our Editorial Team</h3>
+        <a class="small" href="#">View all →</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 text-center p-4 shadow-soft rounded-2xl team-card">
+            <img class="mx-auto mb-3" src="./images/team1.jpg" class="img-fluid" alt="team image">
+            <h6 class="mb-1">Marvin McKinney</h6>
+            <small class="text-muted">Senior Reporter</small>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center p-4 shadow-soft rounded-2xl team-card">
+            <img class="mx-auto mb-3" src="./images/team2.jpg" class="img-fluid" alt="team image">
+            <h6 class="mb-1">Theresa Webb</h6>
+            <small class="text-muted">Publisher</small>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center p-4 shadow-soft rounded-2xl team-card">
+            <img class="mx-auto mb-3" src="./images/team3.jpg" class="img-fluid" alt="team image">
+            <h6 class="mb-1">Esther Howard</h6>
+            <small class="text-muted">Content Writer</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Podcast -->
+  <section id="podcast" class="py-5">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <h3 class="section-title mb-0">Podcast</h3>
+        <a class="small" href="#">View all →</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <article class="post-card card h-100">
+            <img class="card-img-top" src="./images/pd1.jpg" class="img-fluid" alt="podcast image">
+            <div class="card-body">
+              <span class="badge bg-dark-subtle text-dark cat-badge">Marvin Macceny</span>
+              <h5 class="mt-2">Conversations beyond borders: insights, ideas and inspiring journeys</h5>
+              <p class="meta mb-0">Episode 12 · 32:14</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-4">
+            <div class="col-12">
+              <article class="post-card card h-100">
+                <img class="card-img-top" src="./images/pd2.jpg" class="img-fluid" alt="podcast image">
+                <div class="card-body">
+                  <span class="badge bg-dark-subtle text-dark cat-badge">Guy Hacking</span>
+                  <h6 class="mt-2">Beyond the mic: transformative ideas, powerful voices</h6>
+                  <p class="meta mb-0">Episode 11 · 28:05</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-12">
+              <article class="post-card card h-100">
+                <img class="card-img-top" src="./images/pd3.jpg" class="img-fluid" alt="podcast image">
+                <div class="card-body">
+                  <span class="badge bg-dark-subtle text-dark cat-badge">Kristin Whatson</span>
+                  <h6 class="mt-2">The change makers: inspiring stories of transformation</h6>
+                  <p class="meta mb-0">Episode 10 · 30:22</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer pt-5 mt-4">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-5">
+          <div class="d-flex align-items-center gap-2 mb-2"><i class="fa-solid fa-square-k text-white"></i><span
+              class="brand">KIVZO</span></div>
+          <p class="small">Stay updated with the latest news, stories, and insights from around the globe. Subscribe to
+            our newsletter and never miss out.</p>
+          <form class="row g-2" action="#">
+            <div class="col-8"><input type="email" class="form-control form-control-sm" placeholder="Enter your email">
+            </div>
+            <div class="col-4"><button class="btn btn-light btn-sm w-100">Subscribe</button></div>
+          </form>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6 class="text-white">Pages</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6 class="text-white">Categories</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Culture</a></li>
+            <li><a href="#">Sports</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6 class="text-white">Follow</h6>
+          <div class="d-flex gap-2">
+            <a class="btn btn-outline-light btn-sm rounded-circle" href="#" aria-label="Facebook"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-sm rounded-circle" href="#" aria-label="Twitter"><i
+                class="fab fa-x-twitter"></i></a>
+            <a class="btn btn-outline-light btn-sm rounded-circle" href="#" aria-label="Instagram"><i
+                class="fab fa-instagram"></i></a>
+            <a class="btn btn-outline-light btn-sm rounded-circle" href="#" aria-label="YouTube"><i
+                class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="border-top border-secondary mt-4 py-3 small d-flex flex-column flex-md-row justify-content-between">
+        <span>© 2025 Kivzo News. All rights reserved.</span>
+        <div class="d-flex gap-3">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
