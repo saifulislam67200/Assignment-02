@@ -1,0 +1,185 @@
+
+body {
+    background-color: #fd79a8;
+    color: #212529;
+}
+
+.site-brand {
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: #555;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+/* Hero */
+.hero-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-card img {
+    object-fit: cover;
+    height: 420px;
+    width: 100%;
+    filter: brightness(.9);
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .55));
+}
+
+.hero-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.25rem 1.5rem;
+    color: #fff;
+}
+
+.cat-badge {
+    font-size: .7rem;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+
+/* Sidebar list */
+.mini-post {
+    display: flex;
+    gap: .75rem;
+}
+
+.mini-post img {
+    width: 92px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.mini-post small {
+    color: var(--kivzo-muted);
+}
+.sidebar-title {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+.sidebar-pera {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+.sidebar-btn {
+    background-color: #fdcb6e;
+}
+
+/* Section titles */
+.section-title {
+    font-weight: 800;
+    letter-spacing: .3px;
+}
+
+.section-sub {
+    font-size: .9rem;
+    color: var(--kivzo-muted);
+}
+/* editor-section */
+.editor-container {
+    background-color: #f9f9f9;
+}
+.edit-feature-title {
+    font-size: 14px;
+    color: #b2bec3;
+}
+
+/* Latest strip */
+.latest-strip {
+    background: var(--kivzo-accent);
+    border-radius: 1rem;
+}
+
+.latest-card {
+    background: #fff;
+    border-radius: .75rem;
+    overflow: hidden;
+    box-shadow: 0 1px 0 rgba(15, 15, 16, .04);
+}
+
+.latest-card img {
+    height: 160px;
+    object-fit: cover;
+}
+
+/* Standard cards */
+.post-card {
+    border: 0;
+    box-shadow: 0 8px 24px rgba(15, 15, 16, .06);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.post-card .card-img-top {
+    height: 210px;
+    object-fit: cover;
+}
+
+.post-card .meta {
+    color: var(--kivzo-muted);
+    font-size: .9rem;
+}
+
+/* Ad banner */
+.ad-cta {
+    background: #111;
+    color: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.ad-cta img {
+    height: 220px;
+    object-fit: cover;
+    opacity: .85;
+}
+
+/* Team cards */
+.team-card img {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Footer */
+.footer {
+    background: #0d0e10;
+    color: #c9c9c9;
+}
+
+.footer a {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+.footer .brand {
+    color: #fff;
+    font-weight: 800;
+}
+
+/* Helpers */
+.rounded-2xl {
+    border-radius: 1rem;
+}
+
+.shadow-soft {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
+}
